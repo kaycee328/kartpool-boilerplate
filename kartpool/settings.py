@@ -42,8 +42,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "rest_framework",
     "django.contrib.gis",
+    "rest_framework",
     "stores",
     "wishlists",
     "home",
@@ -138,4 +138,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = "/static/"
-GDAL_LIBRARY_PATH = os.environ.get("GDAL_LIBRARY_PATH", "C:\Users\kayce\Desktop\Repositories\PBL\venv\Lib\site-packages\django\contrib\gis\gdal\libgdal.py")
+# GDAL_LIBRARY_PATH = os.environ.get("GDAL_LIBRARY_PATH", "C:\Users\kayce\Desktop\Repositories\PBL\venv\Lib\site-packages\django\contrib\gis\gdal\libgdal.py")
