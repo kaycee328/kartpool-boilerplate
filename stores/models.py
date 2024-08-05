@@ -18,6 +18,6 @@ class Store(models.Model):
     city = models.CharField(max_length=50)
     latitude = models.FloatField(null=True)
     longitude = models.FloatField(null=True)
-    # location = models.PointField(null=True)
+    location = models.PointField(null=True)
     address = models.CharField(max_length=100)
     phone = models.CharField(null=True, max_length=100)

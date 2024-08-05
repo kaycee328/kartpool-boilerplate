@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 import environ
+from osgeo import gdal
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -138,4 +139,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = "/static/"
-# GDAL_LIBRARY_PATH = os.environ.get("GDAL_LIBRARY_PATH", "C:\Users\kayce\Desktop\Repositories\PBL\venv\Lib\site-packages\django\contrib\gis\gdal\libgdal.py")
+
+
+# import os
+
+gdal_path = os.path.dirname(gdal.__file__)
+print(gdal_path)
+
+GDAL_LIBRARY_PATH = os.environ.get(
+    "GDAL_LIBRARY_PATH",
+    "C:\\Users\\kayce\\Desktop\\Repositories\\PBL\\venv\\Lib\\site-packages\\osgeo\\gdal.dll",
+)
