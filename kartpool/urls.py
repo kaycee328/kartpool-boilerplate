@@ -19,9 +19,11 @@ from django.urls import path, include
 from django.urls import path
 from rest_framework.routers import DefaultRouter
 from stores import views as stores_viewsrouter
+from home import views as home_views
 
 router = DefaultRouter()
 router.register(r"stores", stores_viewsrouter.StoreView, basename="stores")
+router.register(r"home", home_views.HomePage, basename="home")
 
 urlpatterns = [
     path("", include(router.urls)),

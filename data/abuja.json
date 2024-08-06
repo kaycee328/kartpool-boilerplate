@@ -1,0 +1,1404 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.1 084b4234",
+    "osm3s": {
+      "timestamp_osm_base": "2024-08-06T11:10:14Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+  
+  {
+    "type": "node",
+    "id": 498461703,
+    "lat": 54.1561985,
+    "lon": -4.4913456,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:postcode": "IM2 3LX",
+      "addr:street": "Tennis Road",
+      "name": "The Wine Cellar",
+      "shop": "alcohol",
+      "source:addr": "Isle of Man Government Land Registry Land Transactions",
+      "website": "https://www.thewinecellar.im/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 499717735,
+    "lat": 54.1614351,
+    "lon": -4.4731351,
+    "tags": {
+      "addr:city": "Castletown",
+      "addr:country": "IM",
+      "addr:street": "Central Promenade",
+      "addr:substreet": "Castle Mona Colonnade",
+      "entrance": "main",
+      "shop": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 502471259,
+    "lat": 54.1617677,
+    "lon": -4.4726672,
+    "tags": {
+      "addr:city": "Castletown",
+      "addr:country": "IM",
+      "addr:street": "Central Promenade",
+      "addr:substreet": "Castle Mona Colonnade",
+      "contact:phone": "+44 1624 616516",
+      "name": "Utopia Hair Care",
+      "opening_hours": "Mo-Sa 09:00-17:30",
+      "shop": "hairdresser",
+      "website": "https://www.utopiahaircare.com/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 685338707,
+    "lat": 54.1554480,
+    "lon": -4.4848364,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "24",
+      "addr:postcode": "IM1 3HH",
+      "addr:street": "Woodbourne Road",
+      "addr:substreet": "Prospect Terrace",
+      "atm": "yes",
+      "check_date": "2024-07-15",
+      "name": "The Co-operative, Woodbourne Road",
+      "opening_hours": "08:00-22:00",
+      "operator": "The Co-operative Group",
+      "operator:wikidata": "Q117202",
+      "shop": "convenience",
+      "website": "https://www.coop.co.uk/store-finder/IM1-3HH/woodbourne-road"
+    }
+  },
+  {
+    "type": "node",
+    "id": 685338709,
+    "lat": 54.1553382,
+    "lon": -4.4847795,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "20",
+      "addr:postcode": "IM1 3AL",
+      "addr:street": "Woodbourne Road",
+      "addr:substreet": "Prospect Terrace",
+      "name": "Fortuna Antiques",
+      "opening_hours": "We-Sa 10:00-17:00",
+      "phone": "+44 7624 340079",
+      "shop": "antiques",
+      "website": "https://fortunaantiques.im/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 939409306,
+    "lat": 54.1622960,
+    "lon": -4.4719321,
+    "tags": {
+      "name": "Kursaal",
+      "shop": "bingo",
+      "website": "http://www.paramountcity.co.im/Kursaal-Bingo"
+    }
+  },
+  {
+    "type": "node",
+    "id": 943742955,
+    "lat": 54.1578795,
+    "lon": -4.4772573,
+    "tags": {
+      "name": "Punch & Judy",
+      "shop": "newsagent"
+    }
+  },
+  {
+    "type": "node",
+    "id": 943788964,
+    "lat": 54.1583465,
+    "lon": -4.4792270,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "46",
+      "addr:street": "Broadway",
+      "name": "T.E. Cubbon Monumental Mason",
+      "phone": "+44 1624 844440",
+      "postal_code": "IM2 4EW",
+      "shop": "monumental_mason",
+      "website": "http://www.tecubbon.co.uk/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 943788995,
+    "lat": 54.1577724,
+    "lon": -4.4781209,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "22",
+      "addr:street": "Broadway",
+      "contact:facebook": "https://www.facebook.com/profile.php?id=100069099466163",
+      "name": "The Spectrum",
+      "shop": "tattoo"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1069288782,
+    "lat": 54.1611546,
+    "lon": -4.4818438,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:postcode": "IM2 4BH",
+      "addr:street": "Lower Duke's Road",
+      "contact:phone": "+44 7624 290199",
+      "name": "Barber Top Studio",
+      "opening_hours": "Mo-Fr 10:00-20:00, Sa 08:00-18:00, Su 09:00-15:00",
+      "shop": "hairdresser"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1069288850,
+    "lat": 54.1611872,
+    "lon": -4.4820133,
+    "tags": {
+      "name": "All Round Fishing",
+      "opening_hours": "We-Fr 12:00-16:00, Sa 10:00-16:00",
+      "shop": "fishing"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1069288866,
+    "lat": 54.1613126,
+    "lon": -4.4820857,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:housenumber": "2",
+      "addr:postcode": "IM2 5DF",
+      "addr:street": "Ballaquayle Road",
+      "name": "Newby's",
+      "opening_hours": "07:00-22:00",
+      "shop": "convenience",
+      "source:addr": "Isle of Man Government Companies Registry"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1069323497,
+    "lat": 54.1560674,
+    "lon": -4.4828379,
+    "tags": {
+      "name": "Andrea's Grooming Parlour",
+      "shop": "beauty"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3414866984,
+    "lat": 54.1615940,
+    "lon": -4.4729115,
+    "tags": {
+      "addr:city": "Castletown",
+      "addr:country": "IM",
+      "addr:street": "Central Promenade",
+      "addr:substreet": "Castle Mona Colonnade",
+      "brand": "Spar",
+      "brand:wikidata": "Q610492",
+      "brand:wikipedia": "en:SPAR (retailer)",
+      "entrance": "main",
+      "name": "Spar",
+      "shop": "convenience"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10674039103,
+    "lat": 54.1597244,
+    "lon": -4.4779689,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housename": "The Old Bakery",
+      "addr:postcode": "IM2 4HD",
+      "addr:street": "Victoria Road",
+      "name": "Luminaires",
+      "phone": "+44 1624 665801",
+      "shop": "lighting",
+      "website": "https://luminaires.co.im/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10674039306,
+    "lat": 54.1596625,
+    "lon": -4.4775982,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:housenumber": "30",
+      "addr:street": "Victoria Road",
+      "contact:facebook": "https://www.facebook.com/@ohdollys/",
+      "name": "Oh Dollys",
+      "shop": "beauty",
+      "source": "mapillary"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10769511474,
+    "lat": 54.1586798,
+    "lon": -4.4835157,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "1",
+      "addr:postcode": "IM2 3HF",
+      "addr:street": "Farrant Street",
+      "name": "Number 1 Beauty Salon",
+      "shop": "beauty",
+      "website": "https://www.number1.im"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11698003299,
+    "lat": 54.1615305,
+    "lon": -4.4730009,
+    "tags": {
+      "addr:city": "Castletown",
+      "addr:country": "IM",
+      "addr:street": "Central Promenade",
+      "addr:substreet": "Castle Mona Colonnade",
+      "entrance": "main",
+      "name": "Dry Cleaning by Christopher's",
+      "shop": "dry_cleaning"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11698003300,
+    "lat": 54.1616653,
+    "lon": -4.4728113,
+    "tags": {
+      "addr:city": "Castletown",
+      "addr:country": "IM",
+      "addr:street": "Central Promenade",
+      "addr:substreet": "Castle Mona Colonnade",
+      "entrance": "main",
+      "name": "William Hill",
+      "shop": "bookmaker"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11904565155,
+    "lat": 54.1609766,
+    "lon": -4.4817551,
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:street": "Duke's Road",
+      "description": "Pink and clouds",
+      "name": "Allusion",
+      "note": "\"Allusion\" is a random neon sign in shop",
+      "old_name": "Blush",
+      "shop": "hairdresser;beauty",
+      "source": "mapillary"
+    }
+  },
+  {
+    "type": "way",
+    "id": 59284206,
+    "bounds": {
+      "minlat": 54.1672600,
+      "minlon": -4.4724255,
+      "maxlat": 54.1679854,
+      "maxlon": -4.4708373
+    },
+    "nodes": [
+      735105908,
+      735105911,
+      735105915,
+      735105920,
+      11766131164,
+      11766220546,
+      735105924,
+      11766220547,
+      11766158784,
+      735105927,
+      735105930,
+      735105933,
+      735105936,
+      735105940,
+      735105908
+    ],
+    "geometry": [
+      { "lat": 54.1677279, "lon": -4.4724255 },
+      { "lat": 54.1679226, "lon": -4.4719856 },
+      { "lat": 54.1677844, "lon": -4.4717978 },
+      { "lat": 54.1679854, "lon": -4.4713150 },
+      { "lat": 54.1677756, "lon": -4.4710744 },
+      { "lat": 54.1675730, "lon": -4.4708419 },
+      { "lat": 54.1675664, "lon": -4.4708563 },
+      { "lat": 54.1675486, "lon": -4.4708373 },
+      { "lat": 54.1674605, "lon": -4.4710478 },
+      { "lat": 54.1672600, "lon": -4.4715403 },
+      { "lat": 54.1673353, "lon": -4.4716315 },
+      { "lat": 54.1673259, "lon": -4.4716637 },
+      { "lat": 54.1675395, "lon": -4.4719588 },
+      { "lat": 54.1674767, "lon": -4.4721036 },
+      { "lat": 54.1677279, "lon": -4.4724255 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:postcode": "IM2 4RE",
+      "addr:street": "Little Switzerland",
+      "brand": "Tesco",
+      "brand:wikidata": "Q487494",
+      "building": "retail",
+      "name": "Tesco",
+      "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-18:00",
+      "operator": "Tesco",
+      "shop": "supermarket",
+      "website": "https://www.tesco.com/store-locator/douglas/little-switzerland",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "way",
+    "id": 62241472,
+    "bounds": {
+      "minlat": 54.1560306,
+      "minlon": -4.4824445,
+      "maxlat": 54.1561571,
+      "maxlon": -4.4820993
+    },
+    "nodes": [
+      777366431,
+      7750345048,
+      7750345049,
+      777366375,
+      777366413,
+      777366488,
+      777366431
+    ],
+    "geometry": [
+      { "lat": 54.1561344, "lon": -4.4824362 },
+      { "lat": 54.1561436, "lon": -4.4823237 },
+      { "lat": 54.1561558, "lon": -4.4821704 },
+      { "lat": 54.1561571, "lon": -4.4821248 },
+      { "lat": 54.1560555, "lon": -4.4820993 },
+      { "lat": 54.1560306, "lon": -4.4824445 },
+      { "lat": 54.1561344, "lon": -4.4824362 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "45-46",
+      "addr:postcode": "IM1 3LP",
+      "addr:street": "Derby Square",
+      "brand": "National Tyres and Autocare",
+      "brand:wikidata": "Q6979055",
+      "brand:wikipedia": "en:National Tyres and Autocare",
+      "building": "yes",
+      "car_repair": "tyres;batteries",
+      "name": "National Tyres and Autocare",
+      "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:30-12:30",
+      "shop": "car_repair",
+      "short_name": "National Tyres",
+      "source": "Isle of Man Government aerial imagery (2001);survey",
+      "website": "https://www.national.co.uk/branch/26/douglas-iom/"
+    }
+  },
+  {
+    "type": "way",
+    "id": 62241484,
+    "bounds": {
+      "minlat": 54.1555878,
+      "minlon": -4.4849762,
+      "maxlat": 54.1557123,
+      "maxlon": -4.4846531
+    },
+    "nodes": [
+      777366470,
+      777366414,
+      777366443,
+      777366477,
+      777366384,
+      777366421,
+      777366454,
+      777366470
+    ],
+    "geometry": [
+      { "lat": 54.1556301, "lon": -4.4846531 },
+      { "lat": 54.1555878, "lon": -4.4849379 },
+      { "lat": 54.1556625, "lon": -4.4849762 },
+      { "lat": 54.1556824, "lon": -4.4849379 },
+      { "lat": 54.1557123, "lon": -4.4847296 },
+      { "lat": 54.1556675, "lon": -4.4847126 },
+      { "lat": 54.1556724, "lon": -4.4846701 },
+      { "lat": 54.1556301, "lon": -4.4846531 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:street": "Woodbourne Road",
+      "addr:substreet": "Prospect Terrace",
+      "alt_name": "Robinson's World Food Market",
+      "building": "yes",
+      "name": "Robinson's on the Terrace",
+      "shop": "greengrocer;florist",
+      "source": "Isle of Man Government aerial imagery (2001)"
+    }
+  },
+  {
+    "type": "way",
+    "id": 80822375,
+    "bounds": {
+      "minlat": 54.1645876,
+      "minlon": -4.4681515,
+      "maxlat": 54.1646618,
+      "maxlon": -4.4680238
+    },
+    "nodes": [
+      11905438678,
+      11906809196,
+      11906809195,
+      11906809194,
+      11905436560,
+      11905438679,
+      11905438676,
+      11905438677,
+      11905438678
+    ],
+    "geometry": [
+      { "lat": 54.1645904, "lon": -4.4680677 },
+      { "lat": 54.1645876, "lon": -4.4680482 },
+      { "lat": 54.1646031, "lon": -4.4680270 },
+      { "lat": 54.1646138, "lon": -4.4680357 },
+      { "lat": 54.1646181, "lon": -4.4680298 },
+      { "lat": 54.1646224, "lon": -4.4680238 },
+      { "lat": 54.1646618, "lon": -4.4681075 },
+      { "lat": 54.1646298, "lon": -4.4681515 },
+      { "lat": 54.1645904, "lon": -4.4680677 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "3",
+      "addr:postcode": "IM2 4NH",
+      "addr:street": "Queens Promenade",
+      "addr:substreet": "Marathon Terrace",
+      "building": "retail",
+      "name": "The Shop",
+      "shop": "convenience;toys",
+      "source": "Isle of Man Government aerial imagery (2001);mapillary"
+    }
+  },
+  {
+    "type": "way",
+    "id": 80822384,
+    "bounds": {
+      "minlat": 54.1644565,
+      "minlon": -4.4683119,
+      "maxlat": 54.1645426,
+      "maxlon": -4.4681774
+    },
+    "nodes": [
+      942430728,
+      942430730,
+      942430711,
+      11906809190,
+      942430731,
+      11905436565,
+      11905436563,
+      11905436564,
+      942430728
+    ],
+    "geometry": [
+      { "lat": 54.1644834, "lon": -4.4681951 },
+      { "lat": 54.1644565, "lon": -4.4682319 },
+      { "lat": 54.1644942, "lon": -4.4683119 },
+      { "lat": 54.1645426, "lon": -4.4682454 },
+      { "lat": 54.1645231, "lon": -4.4682038 },
+      { "lat": 54.1645106, "lon": -4.4681774 },
+      { "lat": 54.1645005, "lon": -4.4681912 },
+      { "lat": 54.1644890, "lon": -4.4682070 },
+      { "lat": 54.1644834, "lon": -4.4681951 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "6",
+      "addr:postcode": "IM2 4NH",
+      "addr:street": "Queens Promenade",
+      "addr:substreet": "Marathon Terrace",
+      "building": "retail",
+      "shop": "vacant",
+      "source": "Isle of Man Government aerial imagery (2001)"
+    }
+  },
+  {
+    "type": "way",
+    "id": 80822400,
+    "bounds": {
+      "minlat": 54.1645416,
+      "minlon": -4.4682146,
+      "maxlat": 54.1646135,
+      "maxlon": -4.4680901
+    },
+    "nodes": [
+      942430688,
+      11905436559,
+      11906809197,
+      11906809198,
+      11906809199,
+      942430772,
+      11905438674,
+      942430751,
+      942430697,
+      942430688
+    ],
+    "geometry": [
+      { "lat": 54.1645741, "lon": -4.4680901 },
+      { "lat": 54.1645709, "lon": -4.4680946 },
+      { "lat": 54.1645677, "lon": -4.4680989 },
+      { "lat": 54.1645571, "lon": -4.4680902 },
+      { "lat": 54.1645416, "lon": -4.4681115 },
+      { "lat": 54.1645444, "lon": -4.4681309 },
+      { "lat": 54.1645569, "lon": -4.4681574 },
+      { "lat": 54.1645838, "lon": -4.4682146 },
+      { "lat": 54.1646135, "lon": -4.4681738 },
+      { "lat": 54.1645741, "lon": -4.4680901 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "2",
+      "addr:postcode": "IM2 4NH",
+      "addr:street": "Queens Promenade",
+      "addr:substreet": "Marathon Terrace",
+      "building": "retail",
+      "contact:website": "https://www.ronsmiths.im/",
+      "name": "Ron Smiths",
+      "shop": "hairdresser",
+      "source": "Isle of Man Government aerial imagery (2001);mapillary",
+      "start_date": "1981"
+    }
+  },
+  {
+    "type": "way",
+    "id": 80822415,
+    "bounds": {
+      "minlat": 54.1642913,
+      "minlon": -4.4685816,
+      "maxlat": 54.1645072,
+      "maxlon": -4.4683113
+    },
+    "nodes": [
+      942430712,
+      942430713,
+      942430799,
+      942430801,
+      942430804,
+      11905438680,
+      942430806,
+      942430808,
+      942430810,
+      11905436558,
+      942430739,
+      942430712
+    ],
+    "geometry": [
+      { "lat": 54.1644364, "lon": -4.4683913 },
+      { "lat": 54.1644901, "lon": -4.4685055 },
+      { "lat": 54.1645072, "lon": -4.4685480 },
+      { "lat": 54.1644322, "lon": -4.4685748 },
+      { "lat": 54.1643977, "lon": -4.4685816 },
+      { "lat": 54.1643663, "lon": -4.4685709 },
+      { "lat": 54.1643309, "lon": -4.4685433 },
+      { "lat": 54.1643073, "lon": -4.4685098 },
+      { "lat": 54.1642913, "lon": -4.4684615 },
+      { "lat": 54.1643449, "lon": -4.4683868 },
+      { "lat": 54.1643987, "lon": -4.4683113 },
+      { "lat": 54.1644364, "lon": -4.4683913 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housename": "Swiss Buildings",
+      "addr:street": "Queens Promenade",
+      "building": "yes",
+      "contact:phone": "+44 1624 675160",
+      "name": "TT Shirts.com",
+      "opening_hours": "Mo-Sa 09:00-18:00, Su 10:00-17:00",
+      "postal_code": "IM2 4NH",
+      "shop": "clothes",
+      "source": "Isle of Man Government aerial imagery (2001)",
+      "website": "https://www.ttshirts.com/"
+    }
+  },
+  {
+    "type": "way",
+    "id": 80832208,
+    "bounds": {
+      "minlat": 54.1551964,
+      "minlon": -4.4793173,
+      "maxlat": 54.1555324,
+      "maxlon": -4.4783135
+    },
+    "nodes": [
+      735126880,
+      942523871,
+      942519867,
+      475410926,
+      10860116845,
+      10860116846,
+      10860116847,
+      10860116844,
+      942523836,
+      942519869,
+      10864523364,
+      10864523366,
+      10864523367,
+      10864523365,
+      735126881,
+      735126880
+    ],
+    "geometry": [
+      { "lat": 54.1551964, "lon": -4.4784221 },
+      { "lat": 54.1552675, "lon": -4.4783881 },
+      { "lat": 54.1554204, "lon": -4.4783135 },
+      { "lat": 54.1554428, "lon": -4.4784107 },
+      { "lat": 54.1554892, "lon": -4.4786687 },
+      { "lat": 54.1554891, "lon": -4.4787045 },
+      { "lat": 54.1554781, "lon": -4.4787315 },
+      { "lat": 54.1554604, "lon": -4.4787472 },
+      { "lat": 54.1554808, "lon": -4.4788576 },
+      { "lat": 54.1555324, "lon": -4.4791920 },
+      { "lat": 54.1554799, "lon": -4.4792189 },
+      { "lat": 54.1554882, "lon": -4.4792662 },
+      { "lat": 54.1553831, "lon": -4.4793173 },
+      { "lat": 54.1553717, "lon": -4.4792764 },
+      { "lat": 54.1553440, "lon": -4.4792910 },
+      { "lat": 54.1551964, "lon": -4.4784221 }
+    ],
+    "tags": {
+      "building": "yes",
+      "name": "Villa Marina Arcade",
+      "shop": "mall",
+      "source": "Isle of Man Government aerial imagery (2001)",
+      "wikimedia_commons": "File:Villa Marina Arcade, Isle of Man.jpg"
+    }
+  },
+  {
+    "type": "way",
+    "id": 80940332,
+    "bounds": {
+      "minlat": 54.1580582,
+      "minlon": -4.4777426,
+      "maxlat": 54.1582265,
+      "maxlon": -4.4775552
+    },
+    "nodes": [
+      943742985,
+      10733735253,
+      943742988,
+      943742990,
+      943742992,
+      943742994,
+      943742985
+    ],
+    "geometry": [
+      { "lat": 54.1582265, "lon": -4.4777426 },
+      { "lat": 54.1582252, "lon": -4.4777167 },
+      { "lat": 54.1582020, "lon": -4.4775667 },
+      { "lat": 54.1580617, "lon": -4.4775552 },
+      { "lat": 54.1580582, "lon": -4.4776992 },
+      { "lat": 54.1580587, "lon": -4.4777413 },
+      { "lat": 54.1582265, "lon": -4.4777426 }
+    ],
+    "tags": {
+      "building": "yes",
+      "name": "Tommy Leonard Motorcycles",
+      "shop": "motorcycle",
+      "source": "Isle of Man Government aerial imagery (2001)"
+    }
+  },
+  {
+    "type": "way",
+    "id": 80943360,
+    "bounds": {
+      "minlat": 54.1579713,
+      "minlon": -4.4804066,
+      "maxlat": 54.1580229,
+      "maxlon": -4.4802282
+    },
+    "nodes": [
+      3067761592,
+      943789079,
+      937676462,
+      1748090075,
+      3067761593,
+      3067761592
+    ],
+    "geometry": [
+      { "lat": 54.1579713, "lon": -4.4804040 },
+      { "lat": 54.1580209, "lon": -4.4804066 },
+      { "lat": 54.1580229, "lon": -4.4802543 },
+      { "lat": 54.1580063, "lon": -4.4802282 },
+      { "lat": 54.1579737, "lon": -4.4802402 },
+      { "lat": 54.1579713, "lon": -4.4804040 }
+    ],
+    "tags": {
+      "building": "retail",
+      "name": "Newby's",
+      "opening_hours": "Mo-Su 07:00-22:00",
+      "shop": "convenience",
+      "source": "Bing;survey"
+    }
+  },
+  {
+    "type": "way",
+    "id": 104804401,
+    "bounds": {
+      "minlat": 54.1590384,
+      "minlon": -4.4783687,
+      "maxlat": 54.1592363,
+      "maxlon": -4.4781112
+    },
+    "nodes": [
+      1208897524,
+      1208897572,
+      1208897714,
+      10742085590,
+      10742085591,
+      1208897521,
+      1208897516,
+      1208897436,
+      1208897594,
+      10742085594,
+      1208897524
+    ],
+    "geometry": [
+      { "lat": 54.1591028, "lon": -4.4783687 },
+      { "lat": 54.1591766, "lon": -4.4783070 },
+      { "lat": 54.1591923, "lon": -4.4782722 },
+      { "lat": 54.1592019, "lon": -4.4782522 },
+      { "lat": 54.1592312, "lon": -4.4781716 },
+      { "lat": 54.1592363, "lon": -4.4781586 },
+      { "lat": 54.1591890, "lon": -4.4781112 },
+      { "lat": 54.1591436, "lon": -4.4781515 },
+      { "lat": 54.1590384, "lon": -4.4782588 },
+      { "lat": 54.1590583, "lon": -4.4782928 },
+      { "lat": 54.1591028, "lon": -4.4783687 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "8,8A",
+      "addr:street": "Victoria Road",
+      "building": "yes",
+      "name": "Eurocycles",
+      "phone": "+44 1624 624909",
+      "postal_code": "IM2 4EY",
+      "rental": "yes",
+      "shop": "bicycle",
+      "website": "http://eurocycles.im/"
+    }
+  },
+  {
+    "type": "way",
+    "id": 165129858,
+    "bounds": {
+      "minlat": 54.1711644,
+      "minlon": -4.4842839,
+      "maxlat": 54.1712563,
+      "maxlon": -4.4841446
+    },
+    "nodes": [
+      1767043921,
+      1767043919,
+      1767043922,
+      1767043923,
+      1767043921
+    ],
+    "geometry": [
+      { "lat": 54.1711891, "lon": -4.4841446 },
+      { "lat": 54.1711644, "lon": -4.4842158 },
+      { "lat": 54.1712316, "lon": -4.4842839 },
+      { "lat": 54.1712563, "lon": -4.4842127 },
+      { "lat": 54.1711891, "lon": -4.4841446 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "13",
+      "addr:postcode": "IM2 6LX",
+      "addr:street": "Snaefell Road",
+      "addr:suburb": "Willaston",
+      "amenity": "fast_food",
+      "building": "yes",
+      "cuisine": "chinese",
+      "name": "Golden Gate",
+      "shop": "fast_food",
+      "source": "Isle of Man Government aerial imagery (2001)"
+    }
+  },
+  {
+    "type": "way",
+    "id": 165129865,
+    "bounds": {
+      "minlat": 54.1710654,
+      "minlon": -4.4845687,
+      "maxlat": 54.1711573,
+      "maxlon": -4.4844294
+    },
+    "nodes": [
+      1767043916,
+      925236526,
+      10720742720,
+      925236527,
+      1767043918,
+      1767043916
+    ],
+    "geometry": [
+      { "lat": 54.1710901, "lon": -4.4844294 },
+      { "lat": 54.1710654, "lon": -4.4845006 },
+      { "lat": 54.1711046, "lon": -4.4845403 },
+      { "lat": 54.1711326, "lon": -4.4845687 },
+      { "lat": 54.1711573, "lon": -4.4844975 },
+      { "lat": 54.1710901, "lon": -4.4844294 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "5",
+      "addr:postcode": "IM2 6LX",
+      "addr:street": "Snaefell Road",
+      "addr:suburb": "Willaston",
+      "building": "yes",
+      "name": "Mr B's Sandwich Deli",
+      "shop": "deli",
+      "source": "Isle of Man Government aerial imagery (2001)"
+    }
+  },
+  {
+    "type": "way",
+    "id": 165129870,
+    "bounds": {
+      "minlat": 54.1711149,
+      "minlon": -4.4844263,
+      "maxlat": 54.1712316,
+      "maxlon": -4.4842158
+    },
+    "nodes": [
+      1767043917,
+      1767043920,
+      1767043922,
+      1767043919,
+      1767043917
+    ],
+    "geometry": [
+      { "lat": 54.1711149, "lon": -4.4843582 },
+      { "lat": 54.1711821, "lon": -4.4844263 },
+      { "lat": 54.1712316, "lon": -4.4842839 },
+      { "lat": 54.1711644, "lon": -4.4842158 },
+      { "lat": 54.1711149, "lon": -4.4843582 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "9-11",
+      "addr:postcode": "IM2 6LX",
+      "addr:street": "Snaefell Road",
+      "addr:suburb": "Willaston",
+      "brand": "Spar",
+      "brand:wikidata": "Q610492",
+      "brand:wikipedia": "en:SPAR (retailer)",
+      "building": "yes",
+      "name": "Spar",
+      "shop": "supermarket",
+      "source": "Isle of Man Government aerial imagery (2001)",
+      "website": "https://www.spar.co.uk/store-locator/hal19532-spar-snaefell-road-willaston/"
+    }
+  },
+  {
+    "type": "way",
+    "id": 165129875,
+    "bounds": {
+      "minlat": 54.1710901,
+      "minlon": -4.4844975,
+      "maxlat": 54.1711821,
+      "maxlon": -4.4843582
+    },
+    "nodes": [
+      1767043917,
+      1767043916,
+      1767043918,
+      1767043920,
+      1767043917
+    ],
+    "geometry": [
+      { "lat": 54.1711149, "lon": -4.4843582 },
+      { "lat": 54.1710901, "lon": -4.4844294 },
+      { "lat": 54.1711573, "lon": -4.4844975 },
+      { "lat": 54.1711821, "lon": -4.4844263 },
+      { "lat": 54.1711149, "lon": -4.4843582 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "7",
+      "addr:postcode": "IM2 6LX",
+      "addr:street": "Snaefell Road",
+      "addr:suburb": "Willaston",
+      "building": "yes",
+      "shop": "butcher",
+      "source": "Isle of Man Government aerial imagery (2001)"
+    }
+  },
+  {
+    "type": "way",
+    "id": 165129876,
+    "bounds": {
+      "minlat": 54.1711891,
+      "minlon": -4.4842127,
+      "maxlat": 54.1712811,
+      "maxlon": -4.4840734
+    },
+    "nodes": [
+      925236529,
+      1767043921,
+      1767043923,
+      925236528,
+      10720742721,
+      925236529
+    ],
+    "geometry": [
+      { "lat": 54.1712139, "lon": -4.4840734 },
+      { "lat": 54.1711891, "lon": -4.4841446 },
+      { "lat": 54.1712563, "lon": -4.4842127 },
+      { "lat": 54.1712811, "lon": -4.4841415 },
+      { "lat": 54.1712451, "lon": -4.4841051 },
+      { "lat": 54.1712139, "lon": -4.4840734 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "15",
+      "addr:postcode": "IM2 6LX",
+      "addr:street": "Snaefell Road",
+      "addr:suburb": "Willaston",
+      "building": "yes",
+      "contact:facebook": "https://www.facebook.com/people/Jeannes/100063627997018",
+      "name": "Jeanne's",
+      "shop": "hairdresser",
+      "source": "Isle of Man Government aerial imagery (2001)",
+      "unisex": "yes"
+    }
+  },
+  {
+    "type": "way",
+    "id": 280860899,
+    "bounds": {
+      "minlat": 54.1572597,
+      "minlon": -4.4821497,
+      "maxlat": 54.1573353,
+      "maxlon": -4.4819523
+    },
+    "nodes": [
+      2849033152,
+      2849033153,
+      2849033156,
+      2849033155,
+      2849033154,
+      2849033151,
+      2849033152
+    ],
+    "geometry": [
+      { "lat": 54.1572666, "lon": -4.4820369 },
+      { "lat": 54.1572733, "lon": -4.4819523 },
+      { "lat": 54.1573353, "lon": -4.4819666 },
+      { "lat": 54.1573235, "lon": -4.4821144 },
+      { "lat": 54.1572978, "lon": -4.4821497 },
+      { "lat": 54.1572597, "lon": -4.4821409 },
+      { "lat": 54.1572666, "lon": -4.4820369 }
+    ],
+    "tags": {
+      "building": "yes",
+      "name": "Sew What",
+      "phone": "+44 1624 614003",
+      "shop": "tailor",
+      "source": "survey"
+    }
+  },
+  {
+    "type": "way",
+    "id": 280860900,
+    "bounds": {
+      "minlat": 54.1569242,
+      "minlon": -4.4827326,
+      "maxlat": 54.1570648,
+      "maxlon": -4.4823475
+    },
+    "nodes": [
+      2849033144,
+      2849033147,
+      2849033146,
+      2849033142,
+      2849033143,
+      2849033144
+    ],
+    "geometry": [
+      { "lat": 54.1569525, "lon": -4.4823475 },
+      { "lat": 54.1570648, "lon": -4.4823710 },
+      { "lat": 54.1570340, "lon": -4.4827326 },
+      { "lat": 54.1569242, "lon": -4.4826800 },
+      { "lat": 54.1569366, "lon": -4.4825427 },
+      { "lat": 54.1569525, "lon": -4.4823475 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "61-62",
+      "addr:postcode": "IM1 3LP",
+      "addr:street": "Derby Square",
+      "building": "yes",
+      "email": "info@talbots.im",
+      "name": "Talbot & Son",
+      "opening_hours": "Mo-Sa 10:00-16:00",
+      "phone": "+44 1624 629940",
+      "shop": "window_blind",
+      "source": "survey;note",
+      "website": "https://www.talbots.im"
+    }
+  },
+  {
+    "type": "way",
+    "id": 280860905,
+    "bounds": {
+      "minlat": 54.1571350,
+      "minlon": -4.4821409,
+      "maxlat": 54.1572666,
+      "maxlon": -4.4820122
+    },
+    "nodes": [
+      2849033150,
+      7750345041,
+      2849033152,
+      2849033151,
+      2849033149,
+      2849033150
+    ],
+    "geometry": [
+      { "lat": 54.1571422, "lon": -4.4820122 },
+      { "lat": 54.1572360, "lon": -4.4820298 },
+      { "lat": 54.1572666, "lon": -4.4820369 },
+      { "lat": 54.1572597, "lon": -4.4821409 },
+      { "lat": 54.1571350, "lon": -4.4821154 },
+      { "lat": 54.1571422, "lon": -4.4820122 }
+    ],
+    "tags": {
+      "building": "yes",
+      "name": "The Hairport & Beauty Salon",
+      "opening_hours": "Tu-Fr 09:30-16:30; Tu,Th,Fr 16:30+; Sa 09:00-16:30",
+      "phone": "+44 1624 626735;+44 7624 421058",
+      "shop": "hairdresser;beauty",
+      "source": "survey"
+    }
+  },
+  {
+    "type": "way",
+    "id": 302527999,
+    "bounds": {
+      "minlat": 54.1578819,
+      "minlon": -4.4804017,
+      "maxlat": 54.1579309,
+      "maxlon": -4.4802560
+    },
+    "nodes": [
+      3067761585,
+      3067761588,
+      3067761589,
+      3067761586,
+      3067761585
+    ],
+    "geometry": [
+      { "lat": 54.1578819, "lon": -4.4803992 },
+      { "lat": 54.1579292, "lon": -4.4804017 },
+      { "lat": 54.1579309, "lon": -4.4802560 },
+      { "lat": 54.1578830, "lon": -4.4802737 },
+      { "lat": 54.1578819, "lon": -4.4803992 }
+    ],
+    "tags": {
+      "landuse": "retail",
+      "name": "The Barber Shop",
+      "opening_hours": "Mo,Tu,Th,Fr 08:00-17:00+; We 10:00-19:00",
+      "shop": "hairdresser",
+      "source": "Bing;survey"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1154364550,
+    "bounds": {
+      "minlat": 54.1651495,
+      "minlon": -4.4845419,
+      "maxlat": 54.1653171,
+      "maxlon": -4.4843263
+    },
+    "nodes": [
+      10735716172,
+      10735716171,
+      10735716170,
+      10735716169,
+      10735716168,
+      10735716167,
+      10735716166,
+      10735716172
+    ],
+    "geometry": [
+      { "lat": 54.1651985, "lon": -4.4843263 },
+      { "lat": 54.1652743, "lon": -4.4844179 },
+      { "lat": 54.1652963, "lon": -4.4843635 },
+      { "lat": 54.1653171, "lon": -4.4843857 },
+      { "lat": 54.1652625, "lon": -4.4845352 },
+      { "lat": 54.1652484, "lon": -4.4845419 },
+      { "lat": 54.1651495, "lon": -4.4844199 },
+      { "lat": 54.1651985, "lon": -4.4843263 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:street": "Bray Hill",
+      "building": "commercial",
+      "contact:facebook": "https://www.facebook.com/p/EVF-Todays-Express-Brayhill-100063881700245/",
+      "name": "EVF Today's Express, Bray Hill",
+      "operator": "EVF",
+      "shop": "convenience"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1206732764,
+    "bounds": {
+      "minlat": 54.1577103,
+      "minlon": -4.4781054,
+      "maxlat": 54.1579176,
+      "maxlon": -4.4778558
+    },
+    "nodes": [
+      11182060080,
+      10733735221,
+      10733735219,
+      11182060081,
+      11182060082,
+      11182060083,
+      11182060084,
+      11182060085,
+      11182060086,
+      11182060079,
+      11182060080
+    ],
+    "geometry": [
+      { "lat": 54.1577446, "lon": -4.4781054 },
+      { "lat": 54.1577103, "lon": -4.4780198 },
+      { "lat": 54.1577627, "lon": -4.4779607 },
+      { "lat": 54.1578171, "lon": -4.4779001 },
+      { "lat": 54.1578251, "lon": -4.4779211 },
+      { "lat": 54.1578988, "lon": -4.4778558 },
+      { "lat": 54.1579176, "lon": -4.4779256 },
+      { "lat": 54.1578372, "lon": -4.4779875 },
+      { "lat": 54.1578433, "lon": -4.4780082 },
+      { "lat": 54.1577668, "lon": -4.4780756 },
+      { "lat": 54.1577446, "lon": -4.4781054 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "20",
+      "addr:postcode": "IM2 4EL",
+      "addr:street": "Broadway",
+      "building": "yes",
+      "contact:facebook": "https://www.facebook.com/B4andafterltd/",
+      "contact:phone": "+44 1624 668306",
+      "name": "B4 and After Ltd",
+      "shop": "hairdresser",
+      "unisex": "yes"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1206737254,
+    "bounds": {
+      "minlat": 54.1584071,
+      "minlon": -4.4791568,
+      "maxlat": 54.1584911,
+      "maxlon": -4.4790169
+    },
+    "nodes": [
+      11182101767,
+      11182101769,
+      11182101770,
+      11182101771,
+      11182101768,
+      11182101767
+    ],
+    "geometry": [
+      { "lat": 54.1584320, "lon": -4.4791137 },
+      { "lat": 54.1584071, "lon": -4.4790804 },
+      { "lat": 54.1584353, "lon": -4.4790169 },
+      { "lat": 54.1584911, "lon": -4.4790998 },
+      { "lat": 54.1584683, "lon": -4.4791568 },
+      { "lat": 54.1584320, "lon": -4.4791137 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:housenumber": "6",
+      "addr:street": "Victoria Road",
+      "building": "yes",
+      "name": "Stylers Unisex",
+      "shop": "hairdresser"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1206737255,
+    "bounds": {
+      "minlat": 54.1583895,
+      "minlon": -4.4792612,
+      "maxlat": 54.1584683,
+      "maxlon": -4.4791137
+    },
+    "nodes": [
+      11182101763,
+      11182101766,
+      11182101768,
+      11182101767,
+      11182101757,
+      11182101765,
+      11182101764,
+      11182101763
+    ],
+    "geometry": [
+      { "lat": 54.1584262, "lon": -4.4792612 },
+      { "lat": 54.1584479, "lon": -4.4792072 },
+      { "lat": 54.1584683, "lon": -4.4791568 },
+      { "lat": 54.1584320, "lon": -4.4791137 },
+      { "lat": 54.1584201, "lon": -4.4791430 },
+      { "lat": 54.1584115, "lon": -4.4791641 },
+      { "lat": 54.1583895, "lon": -4.4792188 },
+      { "lat": 54.1584262, "lon": -4.4792612 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:housenumber": "2-4",
+      "addr:street": "Victoria Road",
+      "building": "yes",
+      "name": "Salt & Pepper",
+      "shop": "deli"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1283043991,
+    "bounds": {
+      "minlat": 54.1645070,
+      "minlon": -4.4682038,
+      "maxlat": 54.1645481,
+      "maxlon": -4.4681429
+    },
+    "nodes": [
+      942430731,
+      11905436565,
+      11905438670,
+      11905436562,
+      11905438669,
+      11905436568,
+      11905436567,
+      11905436566,
+      942430731
+    ],
+    "geometry": [
+      { "lat": 54.1645231, "lon": -4.4682038 },
+      { "lat": 54.1645106, "lon": -4.4681774 },
+      { "lat": 54.1645070, "lon": -4.4681590 },
+      { "lat": 54.1645125, "lon": -4.4681514 },
+      { "lat": 54.1645169, "lon": -4.4681454 },
+      { "lat": 54.1645264, "lon": -4.4681556 },
+      { "lat": 54.1645357, "lon": -4.4681429 },
+      { "lat": 54.1645481, "lon": -4.4681694 },
+      { "lat": 54.1645231, "lon": -4.4682038 }
+    ],
+    "tags": {
+      "addr:city": "Douglas",
+      "addr:country": "IM",
+      "addr:housenumber": "1",
+      "addr:postcode": "IM2 4NH",
+      "addr:street": "Queens Promenade",
+      "addr:substreet": "Marathon Terrace",
+      "building": "retail",
+      "shop": "vacant"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 17595424,
+    "bounds": {
+      "minlat": 54.1646293,
+      "minlon": -4.4680889,
+      "maxlat": 54.1647651,
+      "maxlon": -4.4678576
+    },
+    "members": [
+      {
+        "type": "way",
+        "ref": 1283043992,
+        "role": "outer",
+        "geometry": [
+           { "lat": 54.1647378, "lon": -4.4678673 },
+           { "lat": 54.1647651, "lon": -4.4679253 },
+           { "lat": 54.1647320, "lon": -4.4679708 },
+           { "lat": 54.1647041, "lon": -4.4679116 },
+           { "lat": 54.1647137, "lon": -4.4678985 },
+           { "lat": 54.1647109, "lon": -4.4678789 },
+           { "lat": 54.1647264, "lon": -4.4678576 },
+           { "lat": 54.1647378, "lon": -4.4678673 }
+        ]
+      },
+      {
+        "type": "way",
+        "ref": 80822378,
+        "role": "outer",
+        "geometry": [
+           { "lat": 54.1646293, "lon": -4.4679910 },
+           { "lat": 54.1646551, "lon": -4.4679556 },
+           { "lat": 54.1646664, "lon": -4.4679401 },
+           { "lat": 54.1647125, "lon": -4.4680380 },
+           { "lat": 54.1646754, "lon": -4.4680889 },
+           { "lat": 54.1646360, "lon": -4.4680052 },
+           { "lat": 54.1646293, "lon": -4.4679910 }
+        ]
+      }
+    ],
+    "tags": {
+      "contact:email": "info@promenadeshirts.com",
+      "contact:fax": "+44 1624 663423",
+      "contact:phone": "+44 1624 620777",
+      "contact:website": "https://promenadeshirts.com/",
+      "name": "Promenade Shirts & Embroidery",
+      "opening_hours": "Mo-Fr 08:30-18:00, Sa 09:30-16:00",
+      "shop": "clothes",
+      "type": "multipolygon"
+    }
+  }
+  
+    ]
+  }
+  

@@ -10,13 +10,17 @@ from .serializers import NearbyStoreSerializer
 # Create your views here.
 class StoreView(viewsets.ModelViewSet):
     queryset = Store.objects.all()
-    lookup_field = "pk"
     serializer_class = NearbyStoreSerializer
 
     def list(self, request):
         # Extract latitude and longitude information from the request query params
         latitude = self.request.query_params.get("lat")
         longitude = self.request.query_params.get("lng")
+
+        latitude = 1 if latitude is None else latitude
+        longitude = 1 if longitude is None else longitude
+
+        print(latitude, longitude)
 
         radius = 10  # in kilometres
         number_of_stores_to_return = 100
