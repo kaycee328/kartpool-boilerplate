@@ -11,4 +11,6 @@ class HomePage(viewsets.GenericViewSet):
 
     def list(self, request):
         username = self.request.query_params.get("username")
+        if username is None:
+            username = "ANon"
         return Response({"username": username.upper()})

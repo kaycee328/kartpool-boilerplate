@@ -2,7 +2,7 @@ import {
     updateSelectedStore,
 } from './stores.js';
 
-mapboxgl.accessToken = 'your-secret-key';
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2F5Y2VlMzI4IiwiYSI6ImNsempvNXppbjB0dHEyanNpczEwYjNhMWQifQ.6CkB76_2aMw5z4Woj8jt6g';
 
 /**
  * @typedef {import('./api').Store} Store
@@ -28,8 +28,15 @@ mapboxgl.accessToken = 'your-secret-key';
  * @return {Object} Map
  */
 export function addMap() {
-    const map = {}
-
+    const map = new mapboxgl.Map({  
+        container: 'map',  
+        style: 'mapbox://styles/mapbox/light-v10',  
+        center: [77.645296, 12.978624],  
+        zoom: 2  
+    });
+    
+    map.addControl(new mapboxgl.NavigationControl());  
+    
     return map;
 }
 
@@ -39,7 +46,9 @@ export function addMap() {
  * @param {function} geocoderCallback - The callback that handles the response.
  */
 export function addGeocoder(map, geocoderCallback) {
-    const geocoder = {}
+    const geocoder = new MapboxGeocoder({ accessToken: mapboxgl.accessToken, mapboxgl: mapboxgl });map.addControl(geocoder);geocoder.on("result", (data) => {  
+        geocoderCallback(data);  
+    });
 }
 
 /**
