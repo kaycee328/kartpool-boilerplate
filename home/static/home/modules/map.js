@@ -56,18 +56,50 @@ export function addGeocoder(map, geocoderCallback) {
  * @param {Store[]} stores
  * @return {StoresGeoJSON} Stores in GeoJSON
  */
-export function convertToGeoJson(stores) {
-    return {}
-}
+export function convertToGeoJson(stores) {return {  
+    type: "FeatureCollection",  
+    features: stores.map(store => {  
+        return {  
+            type: "Feature",  
+            geometry: {  
+                type: 'Point',  
+                coordinates: [store.longitude, store.latitude]  
+            },  
+            properties: {  
+                id: store.id,  
+                name: store.name,  
+                address: store.address,  
+                phone: store.phone,  
+                distance: store.distance,  
+                rating: store.rating,  
+            }  
+        }  
+    })  
+  }}
 
 /**
  * Display stores on map
  * @param {Object} map
  * @param {StoresGeoJSON} storesGeoJson
  */
-export function plotStoresOnMap(map, storesGeoJson) {
-    
+export function plotStoresOnMap(map, storesGeoJson) {  
+    for(let store of storesGeoJson.features) {  
+        // create a HTML element for each feature  
+        let el = document.createElement('div');  
+        el.className = 'store';  
+        el.title = `${store.properties.name}\n` +  
+        `approximately ${store.properties.distance.toFixed(2)} km away\n` +  
+        `Address: ${store.properties.address || "N/A"}\n` +  
+        `Phone: ${store.properties.phone || "N/A"}\n` +  
+        `Rating: ${store.properties.rating || "N/A"}`; // make a marker for each feature and add to the map  
+        new mapboxgl.Marker(el)  
+            .setLngLat(store.geometry.coordinates)  
+            .addTo(map); el.addEventListener('click', function(e) {  
+            updateSelectedStore(store.properties.id);  
+        });
+    }  
 }
+
 
 /**
  * Zoom in-to a specific point on a map
